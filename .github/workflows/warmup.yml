@@ -2,7 +2,8 @@ name: Claude Code Warmup
 
 on:
   schedule:
-    - cron: '0 23 * * *'
+    - cron: '0 6,11,16,21 * * *'
+      timezone: 'Asia/Ulaanbaatar'
   workflow_dispatch: {}
 
 concurrency:
@@ -35,7 +36,7 @@ jobs:
           echo '{"hasCompletedOnboarding":true}' > ~/.claude.json
           output_file="$(mktemp)"
           set +e
-          claude -p "hi" --model haiku --no-session-persistence >"$output_file" 2>&1
+          claude -p "say a" --model haiku --no-session-persistence >"$output_file" 2>&1
           status=$?
           set -e
           cat "$output_file"
