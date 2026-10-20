@@ -1,5 +1,5 @@
 # claude-warmup
-[![Claude Code Warmup](https://github.com/Puujee0238/claude-warmup/actions/workflows/warmup.yml/badge.svg?event=workflow_run)](https://github.com/Puujee0238/claude-warmup/actions/workflows/warmup.yml)
+[![Claude Code Warmup](https://github.com/Puujee0238/claude-warmup/actions/workflows/warmup.yml/badge.svg?branch=main&event=workflow_run)](https://github.com/Puujee0238/claude-warmup/actions/workflows/warmup.yml)
 
 Manipulate Claude Code's 5-hour usage window into resetting when you actually need it.
 
