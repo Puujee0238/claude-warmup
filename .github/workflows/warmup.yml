@@ -1,8 +1,8 @@
 name: Claude Code Warmup
 
 on:
-  schedule:
-    - cron: '0 22,03,08,13 * * *'
+  # schedule:
+  #   - cron: '0 22,03,08,13 * * *'
   workflow_dispatch: {}
 
 concurrency:
